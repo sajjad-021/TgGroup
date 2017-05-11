@@ -143,3 +143,4 @@ else
 fi
 
 screen ./launch.sh
+fi
