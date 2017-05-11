@@ -142,5 +142,4 @@ else
   fi
 fi
 
-  ./tg -s bot.lua
-fi
+screen ./launch.sh
