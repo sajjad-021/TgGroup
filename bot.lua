@@ -14,9 +14,8 @@ serpent = require('serpent')
 serp = require 'serpent'.block
 sudo_users = {
     158955285,
-	  118097100,
-	  180191663,
-	  279700027,
+    180191663,
+    279700027,
     yourid,
 	0
 }
@@ -1041,7 +1040,6 @@ local res = http.request(database.."joke.db")
         .."🏅 `وب سایت: http://tgMember.cf` \n"
         .."🏅 `پيام رسان: @tgMessageBot` \n"
         .."🏅 `Developer: @sajjad_021` \n"
-        .."🏅 `Moderator: @mokham_raddade` \n"
         .."🏅 کانال رسمي: @tgMember"
         tdcli.sendText(chat_id, msg.id_, 0, 1, nil, text, 1, 'md')
       end
