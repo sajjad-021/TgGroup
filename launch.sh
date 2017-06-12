@@ -7,11 +7,11 @@ COUNTER=0
 
   while [ $COUNTER -lt 5 ]; do
 
-       tmux kill-session -t script
+       tmux kill-session -t $THIS_DIR
 
-           tmux new-session -s script "./telegram-cli -s bot.lua"
+           tmux new-session -s $THIS_DIR "./tg -s bot.lua"
 
-        tmux detach -s script
+        tmux detach -s $THIS_DIR
         
      sleep 1
 
