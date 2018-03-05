@@ -15,7 +15,7 @@ serp = require 'serpent'.block
 sudo_users = {
     158955285,
     180191663,
-    279700027,
+    66488544,
     yourid,
 	0
 }
